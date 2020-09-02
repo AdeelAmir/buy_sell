@@ -1,14 +1,8 @@
 <!doctype html>
-<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
-
-<!-- Mirrored from exprostudio.com/html/classified/aboutus.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Sep 2020 12:26:16 GMT -->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>BootStrap HTML5 CSS3 Theme</title>
+	<title>Buy and Sell Multan</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -27,14 +21,42 @@
 	<link rel="stylesheet" href="css/color.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+	<style>
+		.tg-formbannersearch fieldset {
+    		background: #fff;
+    		overflow: hidden;
+    		border-radius: 5px;
+    		padding: 0 0px 0 0 !important;
+		}
+		.tg-formtheme fieldset {
+			margin: 0;
+			border: 0;
+			padding: 0;
+			width: 85% !important;
+			float: left;
+			position: relative;
+		}
+		.tg-formtheme fieldset {
+			margin: 0;
+			border: 0;
+			padding: 0;
+			width: 85% !important;
+			float: left;
+			position: relative;
+			margin-left: 80px !important;
+		}
+		.tg-formbannersearch .form-group {
+			margin: 0;
+			float: left;
+			width: 40.33% !important;
+			padding: 0 0 0 60px;
+			border-left: 1px solid #dbdbdb;
+		}
+	</style>
 </head>
-<body>
-	<!--[if lt IE 8]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<!--************************************
-			Wrapper Start
-	*************************************-->
+<body class="tg-home tg-homeone">
+
 	<div id="tg-wrapper" class="tg-wrapper tg-haslayout">
 		<!--************************************
 				Header Start
@@ -44,10 +66,6 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<ul class="tg-navcurrency">
-								<li><a href="#" data-toggle="modal" data-target="#tg-modalselectcurrency">select currency</a></li>
-								<li><a href="#" data-toggle="modal" data-target="#tg-modalpriceconverter">Price converter</a></li>
-							</ul>
 							<div class="dropdown tg-themedropdown tg-userdropdown">
 								<a href="javascript:void(0);" id="tg-adminnav" class="tg-btndropdown" data-toggle="dropdown">
 									<span class="tg-userdp"><img src="images/author/img-01.jpg" alt="image description"></span>
@@ -56,65 +74,15 @@
 								</a>
 								<ul class="dropdown-menu tg-themedropdownmenu" aria-labelledby="tg-adminnav">
 									<li>
-										<a href="dashboard.html">
-											<i class="icon-chart-bars"></i>
-											<span>Insights</span>
-										</a>
-									</li>
-									<li>
-										<a href="dashboard-profile-setting.html">
+										<a href="dashboard-profile-setting.php">
 											<i class="icon-cog"></i>
 											<span>Profile Settings</span>
 										</a>
 									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">
-											<i class="icon-layers"></i>
-											<span>My Ads</span>
-										</a>
-										<ul>
-											<li><a href="dashboard-myads.html">All Ads</a></li>
-											<li><a href="dashboard-myads.html">Featured Ads</a></li>
-											<li><a href="dashboard-myads.html">Active Ads</a></li>
-											<li><a href="dashboard-myads.html">Inactive Ads</a></li>
-											<li><a href="dashboard-myads.html">Sold Ads</a></li>
-											<li><a href="dashboard-myads.html">Expired Ads</a></li>
-											<li><a href="dashboard-myads.html">Deleted Ads</a></li>
-										</ul>
-									</li>
 									<li>
-										<a href="dashboard-postanad.html">
+										<a href="dashboard-postanad.php">
 											<i class="icon-layers"></i>
 											<span>Dashboard Post Ad</span>
-										</a>
-									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">
-											<i class="icon-envelope"></i>
-											<span>Offers/Messages</span>
-										</a>
-										<ul>
-											<li><a href="dashboard-offermessages.html">Offer Received</a></li>
-											<li><a href="dashboard-offermessages.html">Offer Sent</a></li>
-											<li><a href="dashboard-offermessages.html">Trash</a></li>
-										</ul>
-									</li>
-									<li>
-										<a href="dashboard-payments.html">
-											<i class="icon-cart"></i>
-											<span>Payments</span>
-										</a>
-									</li>
-									<li>
-										<a href="dashboard-myfavourites.html">
-											<i class="icon-heart"></i>
-											<span>My Favourite</span>
-										</a>
-									</li>
-									<li>
-										<a href="dashboard-privacy-setting.html">
-											<i class="icon-star"></i>
-											<span>Privacy Settings</span>
 										</a>
 									</li>
 									<li>
@@ -133,8 +101,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<strong class="tg-logo"><a href="index.html"><img src="images/logo.png" alt="company logo here"></a></strong>
-							<a class="tg-btn" href="dashboard-postanad.html">
+							<strong class="tg-logo"><a href="index.php"><img src="images/logo.png" alt="company logo here"></a></strong>
+							<a class="tg-btn" href="dashboard-postanad.php">
 								<i class="icon-bookmark"></i>
 								<span>post an ad</span>
 							</a>
@@ -149,52 +117,17 @@
 								</div>
 								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
 									<ul>
-										<li class="menu-item-has-children">
-											<a href="javascript:void(0);">Home</a>
-											<ul class="sub-menu">
-												<li><a href="index.html">Home V1</a></li>
-												<li><a href="indexv2.html">Home V2</a></li>
-											</ul>
+										<li>
+											<a href="index.php">Home</a>
 										</li>
-										<li class="menu-item-has-children current-menu-item">
-											<a href="javascript:void(0);">Listings</a>
-											<ul class="sub-menu">
-												<li><a href="adlistinggrid.html">Ad Grid</a></li>
-												<li><a href="adlistinglist.html">Ad Listing</a></li>
-												<li><a href="addetail.html">Listing Detail</a></li>
-											</ul>
+										<li>
+											<a href="adlistinggrid.php">Ads</a>
 										</li>
-										<li class="menu-item-has-children">
-											<a href="javascript:void(0);">Dashboard</a>
-											<ul class="sub-menu">
-												<li><a href="dashboard.html">Dashboard</a></li>
-												<li><a href="dashboard-myads.html">Dashboard My Ads</a></li>
-												<li><a href="dashboard-myfavourites.html">Dashboard Favorites</a></li>
-												<li><a href="dashboard-offermessages.html">Dashboard Offer Message</a></li>
-												<li><a href="dashboard-payments.html">Dashboard Payment</a></li>
-												<li><a href="dashboard-postanad.html">Dashboard Post Ad</a></li>
-												<li><a href="dashboard-privacy-setting.html">Dashboard privacy Setting</a></li>
-												<li><a href="dashboard-profile-setting.html">Dashboard Profile Setting</a></li>
-											</ul>
+										<li>
+											<a href="aboutus.php">About Us</a>
 										</li>
-										<li class="menu-item-has-children">
-											<a href="javascript:void(0);">Pages</a>
-											<ul class="sub-menu">
-												<li><a href="aboutus.html">About</a></li>
-												<li><a href="contactus.html">Contact Us</a></li>
-												<li class="menu-item-has-children">
-													<a href="javascript:void(0);">News</a>
-													<ul class="sub-menu">
-														<li><a href="newsgrid.html">News grid</a></li>
-														<li><a href="newslist.html">News list</a></li>
-														<li><a href="newsdetail.html">News detail</a></li>
-													</ul>
-												</li>
-												<li><a href="404error.html">404 Error</a></li>
-												<li><a href="comingsoon.html">Coming Soon</a></li>
-												<li><a href="packages.html">Packages</a></li>
-												<li><a href="loginsignup.html">Login/Register</a></li>
-											</ul>
+										<li>
+											<a href="contactus.php">Contact Us</a>
 										</li>
 									</ul>
 								</div>
@@ -210,23 +143,31 @@
 		<!--************************************
 				Home Slider Start
 		*************************************-->
-		<div id="tg-innerbanner" class="tg-innerbanner tg-haslayout">
-			<figure data-vide-bg="poster: images/slider/img-01.jpg" data-vide-options="position: 50% 50%">
+		<div id="tg-homebanner" class="tg-homebanner tg-haslayout">
+			<figure class="item" data-vide-bg="poster: images/slider/img-01.jpg" data-vide-options="position: 50% 50%">
 				<figcaption>
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="tg-bannercontent">
+									<h1>World’s Largest Marketplace</h1>
+									<h2>Awesome Verified Ads!</h2>
 									<form class="tg-formtheme tg-formbannersearch">
 										<fieldset>
 											<div class="form-group tg-inputwithicon">
-												<i class="icon-bullhorn"></i>
-												<input type="text" name="customword" class="form-control" placeholder="What are you looking for">
-											</div>
-											<div class="form-group tg-inputwithicon">
 												<i class="icon-location"></i>
-												<a class="tg-btnsharelocation fa fa-crosshairs" href="javascript:void(0);"></a>
-												<input type="text" name="yourlocation" class="form-control" placeholder="Your Location">
+												<div class="tg-select">
+													<select>
+														<option value="none">Select City</option>
+														<option value="none">Mobiles</option>
+														<option value="none">Electronics</option>
+														<option value="none">Vehicles</option>
+														<option value="none">Bikes</option>
+														<option value="none">Animals</option>
+														<option value="none">Furniture</option>
+														<option value="none">toys</option>
+													</select>
+												</div>
 											</div>
 											<div class="form-group tg-inputwithicon">
 												<i class="icon-layers"></i>
@@ -252,18 +193,6 @@
 					</div>
 				</figcaption>
 			</figure>
-			<div class="tg-breadcrumbarea">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<ol class="tg-breadcrumb">
-								<li><a href="#">Home</a></li>
-								<li class="tg-active">about us</li>
-							</ol>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 		<!--************************************
 				Home Slider End
@@ -671,24 +600,6 @@
 				Footer Start
 		*************************************-->
 		<footer id="tg-footer" class="tg-footer tg-haslayout">
-			<div class="tg-footerbar">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-push-1 col-lg-10">
-							<div class="tg-newsletter">
-								<h2>Signup For Newsletter:</h2>
-								<form class="tg-formtheme tg-formnewsletter">
-									<fieldset>
-										<i class="icon-envelope"></i>
-										<input type="email" name="email" class="form-control" placeholder="Enter your email here">
-										<button type="button">Signup Now</button>
-									</fieldset>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="clearfix"></div>
 			<div class="container">
 				<div class="row">
@@ -696,32 +607,13 @@
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
 							<div class="tg-widget tg-widgetsearchbylocations">
 								<div class="tg-widgettitle">
-									<h3>Search By Locations:</h3>
+									<h3>Search By Category:</h3>
 								</div>
 								<div class="tg-widgetcontent">
 									<ul>
-										<li><a href="javascript:void(0);">-  Aberdeen</a></li>
-										<li><a href="javascript:void(0);">-  Armagh</a></li>
-										<li><a href="javascript:void(0);">-  Bangor</a></li>
-										<li><a href="javascript:void(0);">-  Bath</a></li>
-										<li><a href="javascript:void(0);">-  Belfast</a></li>
-										<li><a href="javascript:void(0);">-  Birmingham</a></li>
-										<li><a href="javascript:void(0);">-  Bradford</a></li>
-										<li><a href="javascript:void(0);">-  Brighton and Hove</a></li>
-										<li><a href="javascript:void(0);">-  Bristol</a></li>
-										<li><a href="javascript:void(0);">-  Cambridge</a></li>
-									</ul>
-									<ul>
-										<li><a href="javascript:void(0);">-  Canterbury</a></li>
-										<li><a href="javascript:void(0);">-  Cardiff</a></li>
-										<li><a href="javascript:void(0);">-  Carlisle</a></li>
-										<li><a href="javascript:void(0);">-  Chester</a></li>
-										<li><a href="javascript:void(0);">-  Chichester</a></li>
-										<li><a href="javascript:void(0);">-  City of London</a></li>
-										<li><a href="javascript:void(0);">-  Coventry</a></li>
-										<li><a href="javascript:void(0);">-  Derby</a></li>
-										<li><a href="javascript:void(0);">-  Dundee</a></li>
-										<li><a href="javascript:void(0);">View All</a></li>
+										<li><a href="javascript:void(0);">-  Mobile</a></li>
+										<li><a href="javascript:void(0);">-  Bike</a></li>
+										<li><a href="javascript:void(0);">-  Accessories</a></li>
 									</ul>
 								</div>
 							</div>
@@ -731,7 +623,7 @@
 								<div class="tg-widgetcontent">
 									<strong class="tg-logo"><a href="javascript:void(0);"><img src="images/logof.png" alt="image description"></a></strong>
 									<div class="tg-description">
-										<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua anii ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo aute irurel in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+										<p>Ads your product and sell online</p>
 									</div>
 									<div class="tg-followus">
 										<strong>Follow Us:</strong>
@@ -742,23 +634,8 @@
 											<li class="tg-googleplus"><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
 											<li class="tg-rss"><a href="javascript:void(0);"><i class="fa fa-rss"></i></a></li>
 										</ul>
-										<ul class="tg-appsnav">
-											<li><a href="javascript:void(0);"><img src="images/apps-01.png" alt="image description"></a></li>
-											<li><a href="javascript:void(0);"><img src="images/apps-02.png" alt="image description"></a></li>
-										</ul>
 									</div>
-									<nav class="tg-footernav">
-										<ul>
-											<li><a href="javascript:void(0);">Listing Policy</a></li>
-											<li><a href="javascript:void(0);">Terms of Use</a></li>
-											<li><a href="javascript:void(0);">Privacy Policy</a></li>
-											<li><a href="javascript:void(0);">Mobiles Policy</a></li>
-											<li><a href="javascript:void(0);">Change Currency</a></li>
-											<li><a href="javascript:void(0);">Sitemap</a></li>
-											<li><a href="javascript:void(0);">News</a></li>
-										</ul>
-									</nav>
-									<span class="tg-copyright">2017 All Rights Reserved &copy; Classified PRO</span>
+									<span class="tg-copyright">2020 All Rights Reserved &copy; Ads</span>
 								</div>
 							</div>
 						</div>
@@ -855,6 +732,4 @@
 	<script src="js/gmap3.js"></script>
 	<script src="js/main.js"></script>
 </body>
-
-<!-- Mirrored from exprostudio.com/html/classified/aboutus.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Sep 2020 12:26:31 GMT -->
 </html>

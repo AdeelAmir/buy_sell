@@ -2,7 +2,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>BootStrap HTML5 CSS3 Theme</title>
+	<title>Buy and Sell Multan</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -66,10 +66,6 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<ul class="tg-navcurrency">
-								<li><a href="#" data-toggle="modal" data-target="#tg-modalselectcurrency">select currency</a></li>
-								<li><a href="#" data-toggle="modal" data-target="#tg-modalpriceconverter">Price converter</a></li>
-							</ul>
 							<div class="dropdown tg-themedropdown tg-userdropdown">
 								<a href="javascript:void(0);" id="tg-adminnav" class="tg-btndropdown" data-toggle="dropdown">
 									<span class="tg-userdp"><img src="images/author/img-01.jpg" alt="image description"></span>
@@ -78,65 +74,15 @@
 								</a>
 								<ul class="dropdown-menu tg-themedropdownmenu" aria-labelledby="tg-adminnav">
 									<li>
-										<a href="dashboard.html">
-											<i class="icon-chart-bars"></i>
-											<span>Insights</span>
-										</a>
-									</li>
-									<li>
-										<a href="dashboard-profile-setting.html">
+										<a href="dashboard-profile-setting.php">
 											<i class="icon-cog"></i>
 											<span>Profile Settings</span>
 										</a>
 									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">
-											<i class="icon-layers"></i>
-											<span>My Ads</span>
-										</a>
-										<ul>
-											<li><a href="dashboard-myads.html">All Ads</a></li>
-											<li><a href="dashboard-myads.html">Featured Ads</a></li>
-											<li><a href="dashboard-myads.html">Active Ads</a></li>
-											<li><a href="dashboard-myads.html">Inactive Ads</a></li>
-											<li><a href="dashboard-myads.html">Sold Ads</a></li>
-											<li><a href="dashboard-myads.html">Expired Ads</a></li>
-											<li><a href="dashboard-myads.html">Deleted Ads</a></li>
-										</ul>
-									</li>
 									<li>
-										<a href="dashboard-postanad.html">
+										<a href="dashboard-postanad.php">
 											<i class="icon-layers"></i>
 											<span>Dashboard Post Ad</span>
-										</a>
-									</li>
-									<li class="menu-item-has-children">
-										<a href="javascript:void(0);">
-											<i class="icon-envelope"></i>
-											<span>Offers/Messages</span>
-										</a>
-										<ul>
-											<li><a href="dashboard-offermessages.html">Offer Received</a></li>
-											<li><a href="dashboard-offermessages.html">Offer Sent</a></li>
-											<li><a href="dashboard-offermessages.html">Trash</a></li>
-										</ul>
-									</li>
-									<li>
-										<a href="dashboard-payments.html">
-											<i class="icon-cart"></i>
-											<span>Payments</span>
-										</a>
-									</li>
-									<li>
-										<a href="dashboard-myfavourites.html">
-											<i class="icon-heart"></i>
-											<span>My Favourite</span>
-										</a>
-									</li>
-									<li>
-										<a href="dashboard-privacy-setting.html">
-											<i class="icon-star"></i>
-											<span>Privacy Settings</span>
 										</a>
 									</li>
 									<li>
@@ -155,8 +101,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<strong class="tg-logo"><a href="index.html"><img src="images/logo.png" alt="company logo here"></a></strong>
-							<a class="tg-btn" href="dashboard-postanad.html">
+							<strong class="tg-logo"><a href="index.php"><img src="images/logo.png" alt="company logo here"></a></strong>
+							<a class="tg-btn" href="dashboard-postanad.php">
 								<i class="icon-bookmark"></i>
 								<span>post an ad</span>
 							</a>
@@ -171,52 +117,17 @@
 								</div>
 								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
 									<ul>
-										<li class="menu-item-has-children">
-											<a href="javascript:void(0);">Home</a>
-											<ul class="sub-menu">
-												<li><a href="index.html">Home V1</a></li>
-												<li><a href="indexv2.html">Home V2</a></li>
-											</ul>
+										<li>
+											<a href="index.php">Home</a>
 										</li>
-										<li class="menu-item-has-children current-menu-item">
-											<a href="javascript:void(0);">Listings</a>
-											<ul class="sub-menu">
-												<li><a href="adlistinggrid.html">Ad Grid</a></li>
-												<li><a href="adlistinglist.html">Ad Listing</a></li>
-												<li><a href="addetail.html">Listing Detail</a></li>
-											</ul>
+										<li>
+											<a href="adlistinggrid.php">Ads</a>
 										</li>
-										<li class="menu-item-has-children">
-											<a href="javascript:void(0);">Dashboard</a>
-											<ul class="sub-menu">
-												<li><a href="dashboard.html">Dashboard</a></li>
-												<li><a href="dashboard-myads.html">Dashboard My Ads</a></li>
-												<li><a href="dashboard-myfavourites.html">Dashboard Favorites</a></li>
-												<li><a href="dashboard-offermessages.html">Dashboard Offer Message</a></li>
-												<li><a href="dashboard-payments.html">Dashboard Payment</a></li>
-												<li><a href="dashboard-postanad.html">Dashboard Post Ad</a></li>
-												<li><a href="dashboard-privacy-setting.html">Dashboard privacy Setting</a></li>
-												<li><a href="dashboard-profile-setting.html">Dashboard Profile Setting</a></li>
-											</ul>
+										<li>
+											<a href="aboutus.php">About Us</a>
 										</li>
-										<li class="menu-item-has-children">
-											<a href="javascript:void(0);">Pages</a>
-											<ul class="sub-menu">
-												<li><a href="aboutus.html">About</a></li>
-												<li><a href="contactus.html">Contact Us</a></li>
-												<li class="menu-item-has-children">
-													<a href="javascript:void(0);">News</a>
-													<ul class="sub-menu">
-														<li><a href="newsgrid.html">News grid</a></li>
-														<li><a href="newslist.html">News list</a></li>
-														<li><a href="newsdetail.html">News detail</a></li>
-													</ul>
-												</li>
-												<li><a href="404error.html">404 Error</a></li>
-												<li><a href="comingsoon.html">Coming Soon</a></li>
-												<li><a href="packages.html">Packages</a></li>
-												<li><a href="loginsignup.html">Login/Register</a></li>
-											</ul>
+										<li>
+											<a href="contactus.php">Contact Us</a>
 										</li>
 									</ul>
 								</div>
@@ -243,14 +154,20 @@
 									<h2>Awesome Verified Ads!</h2>
 									<form class="tg-formtheme tg-formbannersearch">
 										<fieldset>
-											<!-- <div class="form-group tg-inputwithicon">
-												<i class="icon-bullhorn"></i>
-												<input type="text" name="customword" class="form-control" placeholder="What are you looking for">
-											</div> -->
 											<div class="form-group tg-inputwithicon">
 												<i class="icon-location"></i>
-												<a class="tg-btnsharelocation fa fa-crosshairs" href="javascript:void(0);"></a>
-												<input type="text" name="yourlocation" class="form-control" placeholder="Your Location">
+												<div class="tg-select">
+													<select>
+														<option value="none">Select City</option>
+														<option value="none">Mobiles</option>
+														<option value="none">Electronics</option>
+														<option value="none">Vehicles</option>
+														<option value="none">Bikes</option>
+														<option value="none">Animals</option>
+														<option value="none">Furniture</option>
+														<option value="none">toys</option>
+													</select>
+												</div>
 											</div>
 											<div class="form-group tg-inputwithicon">
 												<i class="icon-layers"></i>
